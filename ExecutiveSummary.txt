@@ -1,0 +1,15 @@
+Name: Pranit Brahmbhatt
+
+Late Days Remaining: 5
+
+# Assignment Overview:
+
+The primary goal of the project is to guarantee that a group of computers can reach an agreement using the Paxos consensus algorithm, even in the event that certain machines encounter difficulties. In order to overcome the shortcomings of earlier techniques like the Two-Phase Commit protocol, this entails defining roles such as "Proposers," "Acceptors," and "Learners" to cooperate and agree on values. It is essential to comprehend the steps of Paxos: prepare, accept, learn; handle errors; and simulate components like clients and data stores. The experiment illustrates Paxos's capacity to create consensus in a distributed system despite possible disruptions by regulating event sequencing and reaching a dependable agreement on values.
+
+# Technical Impressions:
+
+As I worked on the project, I studied the intricate realm of distributed systems and concentrated on getting the Paxos consensus algorithm to function. I learned about fault tolerance and consensus through this assignment, which was both thrilling and difficult. I took on several positions, such as Learners, Acceptors, and Proposers. It was hard at first to see how all these jobs fit together, but as I grew to understand them, I recognized that in a dispersed system, consensus could be reached.
+
+I learned how crucial it is to handle failures and carefully organize events when I implemented the Paxos algorithm. The difficult aspect was coming up with situations that adhered to the core Paxos criteria yet were nevertheless plausible. How difficult it is to strike a balance between safety and availability was demonstrated to me by having many roles work together, causing systemic failures, and then getting everything back on track.
+
+Working on this project helped me appreciate just how complicated distributed systems in the real world can be. It's critical to consider potential problems, ensure system continuity, and ensure that all parties are in agreement. This work also made me aware of the trade-offs associated with various approaches to agreement-making. For example, Paxos places a great deal of emphasis on consistency and reliability, which makes sense considering how difficult it can be to get distributed systems to cooperate. Ultimately, this project allowed me to go deeply into distributed systems and was like a wonderful voyage into the world of managing errors and getting everyone to agree.
